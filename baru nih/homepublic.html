@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BizFlow - Business Management System</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+</html>
+
+
+<!-- =============================== -->
+<!-- Dashboard Admin - dashboard.html -->
+<!-- =============================== -->
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Admin - BizFlow</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+<div class="flex h-screen">
+
+  <!-- Sidebar -->
+  <aside class="w-64 bg-white shadow-md">
+    <div class="p-6 font-bold text-2xl text-blue-600">
+      BizFlow
+    </div>
+    <nav class="mt-6">
+      <a class="block py-3 px-6 hover:bg-blue-50">Dashboard</a>
+      <a class="block py-3 px-6 hover:bg-blue-50">Produk</a>
+      <a class="block py-3 px-6 hover:bg-blue-50">Penjualan</a>
+      <a class="block py-3 px-6 hover:bg-blue-50">Customer</a>
+      <a class="block py-3 px-6 hover:bg-blue-50">Laporan</a>
+      <a class="block py-3 px-6 hover:bg-blue-50">Pengaturan</a>
+    </nav>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="flex-1 p-8">
+
+    <h1 class="text-3xl font-bold mb-6">Dashboard</h1>
+
+    <!-- Stats -->
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
+
+      <div class="bg-white p-6 rounded-2xl shadow">
+        <p class="text-gray-500">Total Penjualan</p>
+        <h2 class="text-2xl font-bold">Rp 12.000.000</h2>
+      </div>
+
+      <div class="bg-white p-6 rounded-2xl shadow">
+        <p class="text-gray-500">Total Produk</p>
+        <h2 class="text-2xl font-bold">120</h2>
+      </div>
+
+      <div class="bg-white p-6 rounded-2xl shadow">
+        <p class="text-gray-500">Customer</p>
+        <h2 class="text-2xl font-bold">85</h2>
+      </div>
+
+      <div class="bg-white p-6 rounded-2xl shadow">
+        <p class="text-gray-500">Pendapatan</p>
+        <h2 class="text-2xl font-bold">Rp 8.500.000</h2>
+      </div>
+
+    </div>
+
+    <!-- Table -->
+    <div class="bg-white p-6 rounded-2xl shadow">
+      <h2 class="text-xl font-bold mb-4">Transaksi Terbaru</h2>
+
+      <table class="w-full">
+        <thead>
+          <tr class="border-b">
+            <th class="text-left py-2">ID</th>
+            <th class="text-left py-2">Customer</th>
+            <th class="text-left py-2">Tanggal</th>
+            <th class="text-left py-2">Total</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr class="border-b">
+            <td class="py-2">#001</td>
+            <td>Ahmad</td>
+            <td>18 Apr 2026</td>
+            <td>Rp 500.000</td>
+          </tr>
+
+          <tr class="border-b">
+            <td class="py-2">#002</td>
+            <td>Budi</td>
+            <td>18 Apr 2026</td>
+            <td>Rp 350.000</td>
+          </tr>
+
+        </tbody>
+
+      </table>
+    </div>
+
+  </main>
+
+</div>
+
+</body>
+</html>
